@@ -1,21 +1,15 @@
-#include <stdio.h>
-
-int main()
+#include<conio.h>
+void main()
 {
-    int num;
-   scanf("%d", &num);
-    if(num > 0)
-    {
-        printf("Number is POSITIVE");
-    }
-    if(num < 0)
-    {
-        printf("Number is NEGATIVE");
-    }
-    if(num == 0)
-    {
-        printf("Number is ZERO");
-    }
-
-    return 0;
+ clrscr();
+ int number;
+ cout<<"Enter a number : ";
+ cin>>number;
+ if(number>0)
+   cout<<"Number is Positive";
+ else if(number<0) 
+   cout<<"Number is Negative";
+ else
+   cout<<"Number is Zero";
+ getch();
 }
